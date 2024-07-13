@@ -1,0 +1,14 @@
+[
+    {
+      "layer": "top", // Waybar on highest layer so tooltips go over windows
+      
+      "output": "eDP-1", // Set output to primary monitor
+      "height": 20, // Set height to avoid jumping due to active workspace indicator
+  
+      "modules-left": ["hyprland/workspaces"], // Sets modules for the left of the bar
+      "modules-center": ["clock"], // Set modules for the center of the bar
+      "modules-right": ["tray", "temperature", "cpu", "Network"] // Set modules for the right of the bar
+
+    }
+  ]
+  

@@ -1,0 +1,23 @@
+* {
+    font-family:
+        SpaceMono Nerd Font,
+        feather;
+    font-weight: 500;
+    font-size: 13.5pt;
+    color: #c0caf5;
+}
+
+/* main waybar */
+window#waybar {
+    background: rgba(26, 27, 38, 0);
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 20px;
+}
+
+#workspaces button {
+    padding: 2px;
+  }
+  

@@ -1,0 +1,55 @@
+2024-07-13 02:49:07.113 [info] Log level: Info
+2024-07-13 02:49:07.113 [info] Validating found git in: "git"
+2024-07-13 02:49:07.113 [info] Using git "2.45.2" from "git"
+2024-07-13 02:49:07.113 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-13 02:49:07.113 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-07-13 02:49:07.113 [info] Open repository: /home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot
+2024-07-13 02:49:07.115 [info] > git config --get commit.template [15ms]
+2024-07-13 02:49:07.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [50ms]
+2024-07-13 02:49:07.184 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:49:07.186 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-07-13 02:49:07.192 [info] > git status -z -uall [2ms]
+2024-07-13 02:49:07.221 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2024-07-13 02:49:07.227 [info] > git config --get commit.template [8ms]
+2024-07-13 02:49:07.229 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-07-13 02:49:07.229 [warning] git config failed: Failed to execute git
+2024-07-13 02:49:07.572 [info] > git reflog main --grep-reflog=branch: Created from *. [340ms]
+2024-07-13 02:49:07.581 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-07-13 02:49:07.586 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:49:07.588 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-13 02:49:07.597 [info] > git status -z -uall [3ms]
+2024-07-13 02:49:07.610 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-13 02:49:07.616 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-13 02:49:07.616 [warning] git config failed: Failed to execute git
+2024-07-13 02:49:07.622 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [46ms]
+2024-07-13 02:49:07.632 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-13 02:49:07.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-07-13 02:49:07.639 [info] > git reflog main --grep-reflog=branch: Created from *. [18ms]
+2024-07-13 02:49:07.645 [info] > git config --local branch.main.vscode-merge-base origin/main [6ms]
+2024-07-13 02:49:07.650 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-07-13 02:49:07.657 [info] > git config --get commit.template [8ms]
+2024-07-13 02:49:07.661 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-07-13 02:49:07.667 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-13 02:49:07.673 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:49:07.674 [info] > git config --local branch.main.vscode-merge-base origin/main [8ms]
+2024-07-13 02:49:07.679 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2024-07-13 02:49:07.689 [info] > git config --get commit.template [11ms]
+2024-07-13 02:49:07.698 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-13 02:49:07.709 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:49:07.711 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-13 02:49:07.722 [info] > git status -z -uall [3ms]
+2024-07-13 02:49:07.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-13 02:49:07.746 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-07-13 02:49:07.756 [info] > git merge-base refs/heads/main refs/remotes/origin/main [68ms]
+2024-07-13 02:49:07.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2024-07-13 02:49:07.784 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [21ms]
+2024-07-13 02:49:07.794 [info] > git diff --name-status -z --diff-filter=ADMR 7020773f32a6779af63ebba70aed5a7da0a9cd42...refs/remotes/origin/main [3ms]
+2024-07-13 02:49:08.820 [info] > git config --get commit.template [9ms]
+2024-07-13 02:49:08.823 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-13 02:49:08.828 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:49:08.829 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-13 02:49:08.839 [info] > git status -z -uall [3ms]
+2024-07-13 02:49:08.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-13 02:49:08.860 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-13 02:49:08.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-07-13 02:50:27.431 [info] > git check-ignore -v -z --stdin [3ms]

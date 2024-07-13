@@ -1,0 +1,42 @@
+/* Reset default styles */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0;
+}
+
+/* Styling for the entire waybar */
+#waybar {
+    background: rgba(21, 18, 27, 0);
+    color: #cdd6f4;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Align elements with space around them */
+    align-items: center; /* Center items vertically */
+}
+
+/* Tooltip styling */
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+/* Styling for specific modules */
+#clock {
+    color: #fab387;
+}
+
+#network {
+    color: #f9e2af;
+    margin-left: auto; /* Pushes it to the right */
+}
+
+#bluetooth {
+    color: #89b4fa;
+    margin-left: 10px; /* Space between bluetooth and network */
+}

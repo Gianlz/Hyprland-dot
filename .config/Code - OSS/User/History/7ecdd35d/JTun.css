@@ -1,0 +1,34 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the bar */
+  #waybar {
+    height: 50px; /* Match the height specified in the config */
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    font-size: 14px; /* Example font size */
+    font-family: Arial, sans-serif; /* Example font family */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  /* Styling for clock module */
+  #waybar .clock {
+    font-weight: bold;
+  }
+  
+  /* Styling for network module */
+  #waybar .network {
+    margin-right: 10px; /* Adjust spacing between modules */
+  }
+  
+  /* Styling for bluetooth module */
+  #waybar .bluetooth {
+    margin-right: 10px; /* Adjust spacing between modules */
+  }
+  
