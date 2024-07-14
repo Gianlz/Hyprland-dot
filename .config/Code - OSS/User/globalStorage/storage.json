@@ -2,8 +2,8 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/strongerfx/.config": "__default__profile__",
-            "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot": "__default__profile__"
+            "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot": "__default__profile__",
+            "file:///home/strongerfx/.config": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -15,15 +15,15 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot"
+                "folderUri": "file:///home/strongerfx/.config"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot",
-            "backupPath": "/home/strongerfx/.config/Code - OSS/Backups/afb494598b8c40990468e4911ddb5074",
+            "folder": "file:///home/strongerfx/.config",
+            "backupPath": "/home/strongerfx/.config/Code - OSS/Backups/cd7101e5b976f8c7995a0489674f20e4",
             "uiState": {
                 "mode": 1,
                 "x": 9,
@@ -81,23 +81,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot",
-                                        "path": "/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Document/Projects/hyprland-configs/Hyprland-dot"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/strongerfx/.config",
                                         "path": "/home/strongerfx/.config",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot",
+                                        "path": "/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Document/Projects/hyprland-configs/Hyprland-dot"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -169,13 +169,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -350,13 +343,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -715,6 +706,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.moveEditorToNewWindow",
                                     "label": "&&Move Editor into New Window"
                                 },
@@ -791,6 +789,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -814,8 +816,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -823,8 +824,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -833,8 +833,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1489,6 +1488,11 @@
                 "label": "Ctrl+K Ctrl+\\",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
+            },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
             "workbench.action.copyEditorToNewWindow": {
                 "label": "Ctrl+K O",

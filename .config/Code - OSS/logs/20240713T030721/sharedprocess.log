@@ -1,0 +1,17 @@
+2024-07-13 03:08:10.345 [info] Getting Manifest... codeium.codeium
+2024-07-13 03:08:10.533 [info] Installing extension: codeium.codeium {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/strongerfx/.vscode-oss/extensions/extensions.json","path":"/home/strongerfx/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.91.1","date":"2024-07-12T15:10:53.972Z"}}
+2024-07-13 03:08:13.059 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-07-13 03:08:13.059 [info] Extension signature verification is not done: codeium.codeium
+2024-07-13 03:08:13.311 [info] Extracted extension to file:///home/strongerfx/.vscode-oss/extensions/codeium.codeium-1.8.80-universal: codeium.codeium
+2024-07-13 03:08:13.367 [info] Renamed to /home/strongerfx/.vscode-oss/extensions/codeium.codeium-1.8.80-universal
+2024-07-13 03:08:13.445 [info] Extension installed successfully: codeium.codeium vscode-userdata:/home/strongerfx/.vscode-oss/extensions/extensions.json
+2024-07-13 03:08:13.456 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/strongerfx/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/strongerfx/.vscode-oss/extensions/extensions.json.vsctmp'
+    at h.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19262)
+    at f (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19372)
+    at P.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36571)
+    at P.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:28919)
+    at async s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14907)
+    at async V.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:119283)

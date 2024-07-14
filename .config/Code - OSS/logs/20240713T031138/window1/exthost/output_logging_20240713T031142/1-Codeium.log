@@ -1,0 +1,57 @@
+(VSCode) 2024-07-13 03:11:43.542 [INFO]: No proxy settings found
+(VSCode) 2024-07-13 03:11:44.991 [INFO]: Creating manager directory: /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager
+(VSCode) 2024-07-13 03:11:45.875 [INFO]: Using cached LS with valid crc32: /home/strongerfx/.vscode-oss/extensions/codeium.codeium-1.8.80-universal/dist/ea9a89028334feda7d7ab8900d5f1d58e2f7c361/language_server_linux_x64
+(VSCode) 2024-07-13 03:11:45.881 [INFO]: Language server started
+2024/07/13 03:11:46 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0713 03:11:46.052174 22472 main.go:494] Setting GOMAXPROCS to 4
+I0713 03:11:46.052333 22472 main.go:629] Starting language server manager with pid 22472
+I0713 03:11:46.052421 22472 main.go:117] Manager acquired its lock file /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager/locks/manager.lock
+I0713 03:11:46.053076 22472 main.go:256] Waiting for random port file in /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager/child_random_port_1720851106052514017_3885965968401015470 to be created
+2024/07/13 03:11:46 maxprocs: Leaving GOMAXPROCS=4: CPU quota undefined
+I0713 03:11:46.294647 22479 main.go:494] Setting GOMAXPROCS to 4
+I0713 03:11:46.295313 22479 main.go:623] Starting language server process with pid 22479
+I0713 03:11:46.295687 22479 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0713 03:11:46.296017 22479 server.go:163] Language server listening on random port at 33055
+I0713 03:11:46.296126 22479 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0713 03:11:46.296155 22479 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0713 03:11:46.296187 22479 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+I0713 03:11:46.852503 22479 unleash.go:90] Initializing Unleash
+I0713 03:11:47.379944 22479 unleash.go:110] Successfully initialized Unleash
+E0713 03:11:47.395923 22479 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+I0713 03:11:47.396581 22479 server.go:355] Successfully created API server client
+I0713 03:11:47.439152 22479 server.go:364] Successfully initialized tokenizer
+I0713 03:11:47.561938 22479 server.go:473] Local search is enabled, will index local files.
+I0713 03:11:47.561990 22479 server.go:477] Using 1 indexer workers
+I0713 03:11:47.562038 22479 search_provider.go:208] Using database at /home/strongerfx/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+I0713 03:11:47.673053 22479 search_provider.go:222] Successfully created embedding search database in 110ms
+I0713 03:11:47.673405 22479 indexer.go:214] Using 4 embed workers
+I0713 03:11:47.673445 22479 search_provider.go:251] Successfully created and started indexer
+I0713 03:11:47.673484 22479 search_provider.go:277] Successfully created embedding search provider
+I0713 03:11:47.673508 22479 server.go:517] Successfully created exact search provider
+I0713 03:11:47.677974 22479 server.go:547] Successfully created completion provider
+I0713 03:11:47.678041 22479 server.go:596] Child process attempting to acquire lock file /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager/locks/child_lock_1720851106052555349_1848475104837185492
+I0713 03:11:47.678114 22479 server.go:604] Child process acquired lock file /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager/locks/child_lock_1720851106052555349_1848475104837185492
+I0713 03:11:47.682499 22479 server.go:183] LSP listening on random port at 46275
+I0713 03:11:47.683051 22479 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:45499
+46275
+I0713 03:11:47.761455 22472 main.go:292] Language server manager found random server port 33055
+I0713 03:11:47.761499 22472 main.go:293] Language server manager found random lsp port 46275
+I0713 03:11:47.761531 22472 main.go:300] Language server manager attempting to connect to language server at 127.0.0.1:33055
+I0713 03:11:47.783885 22472 main.go:171] Fixing language server port at 33055
+I0713 03:11:47.783907 22472 main.go:351] Language server manager successfully connected to new language server at 127.0.0.1:33055
+(VSCode) 2024-07-13 03:11:47.792 [INFO]: Found language server running on port 33055
+(VSCode) 2024-07-13 03:11:47.811 [INFO]: Downloaded binary: /home/strongerfx/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0713 03:11:47.830537 22479 rpcs_miscellaneous.go:131] Ripgrep available at /home/strongerfx/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+I0713 03:11:47.907570 22479 rpcs_miscellaneous.go:325] University version is up to date.
+(VSCode) 2024-07-13 03:11:48.418 [INFO]: Completion request was cancelled by token (43.2ms)
+(VSCode) 2024-07-13 03:11:48.529 [INFO]: Completion request was cancelled by token (59.64ms)
+(VSCode) 2024-07-13 03:11:48.644 [INFO]: Completion request was cancelled by token (57.76ms)
+(VSCode) 2024-07-13 03:11:48.755 [INFO]: Completion request was cancelled by token (57.87ms)
+(VSCode) 2024-07-13 03:11:49.212 [INFO]: Completion request was cancelled by token (403.08ms)
+(VSCode) 2024-07-13 03:11:50.113 [INFO]: Completion request was cancelled by token (848.94ms)
+(VSCode) 2024-07-13 03:11:50.711 [INFO]: Completion request succeeded (545.3ms)
+(VSCode) 2024-07-13 03:11:50.713 [INFO]: No completions were generated
+(VSCode) 2024-07-13 03:11:50.713 [INFO]: provideInlineCompletionItems request succeeded (548.08ms)
+(VSCode) 2024-07-13 03:13:04.377 [INFO]: Disposing language server process
+(VSCode) 2024-07-13 03:13:04.378 [INFO]: Deleting manager directory: /tmp/e282d89d-a22e-427b-9ce0-26ce182f9c81/codeium/manager
+(VSCode) 2024-07-13 03:13:04.383 [INFO]: Successfully disposed language server

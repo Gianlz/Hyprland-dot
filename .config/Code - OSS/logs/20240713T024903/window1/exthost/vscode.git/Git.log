@@ -53,3 +53,85 @@
 2024-07-13 02:49:08.860 [info] > git config --local branch.main.vscode-merge-base [1ms]
 2024-07-13 02:49:08.866 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
 2024-07-13 02:50:27.431 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-13 02:50:28.756 [info] > git check-ignore -v -z --stdin [2ms]
+2024-07-13 02:50:28.972 [info] > git config --get commit.template [5ms]
+2024-07-13 02:50:28.974 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-07-13 02:50:28.978 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:50:28.980 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-13 02:50:28.988 [info] > git status -z -uall [5ms]
+2024-07-13 02:50:29.020 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [19ms]
+2024-07-13 02:50:29.026 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-07-13 02:50:29.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-07-13 02:50:59.902 [info] > git config --get commit.template [4ms]
+2024-07-13 02:50:59.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-13 02:50:59.906 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:50:59.907 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-13 02:50:59.916 [info] > git status -z -uall [5ms]
+2024-07-13 02:50:59.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-07-13 02:50:59.952 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-07-13 02:50:59.958 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-07-13 02:51:19.939 [info] > git config --get commit.template [2ms]
+2024-07-13 02:51:19.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-13 02:51:19.948 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:51:19.950 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-07-13 02:51:19.960 [info] > git status -z -uall [6ms]
+2024-07-13 02:51:19.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-07-13 02:51:19.990 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-07-13 02:51:19.997 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-07-13 02:51:56.715 [info] > git config --get commit.template [5ms]
+2024-07-13 02:51:56.716 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-13 02:51:56.720 [warning] ENOENT: no such file or directory, open '/home/strongerfx/Document/Projects/hyprland-configs/Hyprland-dot/.git/refs/remotes/origin/main'
+2024-07-13 02:51:56.721 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-07-13 02:51:56.729 [info] > git status -z -uall [5ms]
+2024-07-13 02:51:56.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-07-13 02:51:56.757 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-07-13 02:51:56.763 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-07-13 02:51:56.770 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-07-13 02:51:56.776 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-13 02:51:56.783 [info] > git diff --name-status -z --diff-filter=ADMR 7020773f32a6779af63ebba70aed5a7da0a9cd42...refs/remotes/origin/main [2ms]
+2024-07-13 02:54:27.109 [info] > git config --get commit.template [2ms]
+2024-07-13 02:54:27.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-13 02:54:27.127 [info] > git status -z -uall [5ms]
+2024-07-13 02:54:27.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-07-13 02:54:27.150 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-07-13 02:54:27.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-07-13 02:54:27.165 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-07-13 02:54:27.172 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-07-13 02:54:27.180 [info] > git diff --name-status -z --diff-filter=ADMR 921378fb6cb542893435348d6c97e3f2ab076c49...refs/remotes/origin/main [2ms]
+2024-07-13 03:02:45.557 [info] Log level: Info
+2024-07-13 03:02:45.557 [info] Validating found git in: "git"
+2024-07-13 03:02:45.557 [info] Using git "2.45.2" from "git"
+2024-07-13 03:02:45.557 [info] > git rev-parse --show-toplevel [9ms]
+2024-07-13 03:02:45.557 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.564 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-13 03:02:45.564 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.573 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-13 03:02:45.573 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.582 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-13 03:02:45.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.596 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-13 03:02:45.596 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.617 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-13 03:02:45.617 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.637 [info] > git rev-parse --show-toplevel [6ms]
+2024-07-13 03:02:45.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.650 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-13 03:02:45.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.666 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-13 03:02:45.666 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.678 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-13 03:02:45.678 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.690 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-13 03:02:45.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.700 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-13 03:02:45.700 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.709 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-13 03:02:45.710 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.719 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-13 03:02:45.719 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.729 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-13 03:02:45.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:45.742 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-13 03:02:45.742 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-07-13 03:02:46.501 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-13 03:02:46.501 [info] fatal: not a git repository (or any of the parent directories): .git

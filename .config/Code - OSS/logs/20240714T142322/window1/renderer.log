@@ -1,0 +1,30 @@
+2024-07-14 14:23:31.488 [info] Started local extension host with pid 896.
+2024-07-14 14:23:38.379 [info] [perf] Render performance baseline is 42ms
+2024-07-14 14:29:03.783 [error] There are no commenting ranges at the current position (with range).: Error: There are no commenting ranges at the current position (with range).
+    at q.addCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2136:2643)
+    at q.addOrToggleCommentAtLine (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2136:2173)
+    at q.cb (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2136:1878)
+    at d.value (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2135:21558)
+    at de.B (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:732)
+    at de.C (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:802)
+    at de.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:93:1018)
+    at de.fire (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:771:22609)
+    at we.onMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:771:20440)
+    at C.emitMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:105:22121)
+    at L.emitMouseUp (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:699:46589)
+    at i.F (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:745:15239)
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:745:12806
+    at HTMLDivElement.<anonymous> (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:740:32894)
+2024-07-14 14:38:13.505 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-07-14 14:38:13.506 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter, terminalShellIntegration'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-07-14 14:38:13.534 [error] [ms-python.debugpy]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.debugpy
+2024-07-14 14:38:13.535 [error] [ms-python.python]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-07-14 14:38:13.535 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-07-14 14:38:14.071 [error] spawn /home/strongerfx/.vscode-oss/extensions/ms-python.python-2024.10.0-universal/python-env-tools/bin/pet ENOENT: Error: spawn /home/strongerfx/.vscode-oss/extensions/ms-python.python-2024.10.0-universal/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-07-14 15:27:37.759 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/strongerfx/.vscode-oss/extensions/codeium.codeium-1.8.80-universal/dist/extension.js:2:2160417)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)

@@ -1,0 +1,80 @@
+{
+    "layer": "top",
+    "output": "eDP-1",
+    "height": 18,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "custom/river_height",  // Add your custom river_height module here
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "pulseaudio#microphone",
+        "backlight"
+    ],
+    "backlight": {
+        "device": "intel_backlight",
+        "format": "{icon} {percent}%",
+        "format-icons": [
+            "󰃞",
+            "󰃟",
+            "󰃠"
+        ],
+        "on-scroll-up": "brightnessctl set 1%-",
+        "on-scroll-down": "brightnessctl set 1%+",
+        "min-length": 6
+    },
+    "network": {
+        "format-wifi": "   {signalStrength}%",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{essid} - {ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}:{essid} {ipaddr}/{cidr}"
+    },
+    "bluetooth": {
+        "format": " {status}",
+        "format-disabled": "",
+        "format-connected": " {num_connections}",
+        "tooltip-format": "{device_alias}",
+        "tooltip-format-connected": " {device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}"
+    },
+    "pulseaudio": {
+        "format": "{icon}   {volume}%",
+        "tooltip": false,
+        "format-muted": "  Muted",
+        "on-click": "pamixer -t",
+        "on-scroll-up":  "pamixer -d 5",
+        "on-scroll-down": "pamixer -i 5",
+        "scroll-step": 5,
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        }
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-source": " {volume}%",
+        "format-source-muted": " Muted",
+        "on-click": "pamixer --default-source -t",
+        "on-scroll-up": "pamixer --default-source -d 5",
+        "on-scroll-down": "pamixer --default-source -i 5",
+        "scroll-step": 5
+    },
+    "river_height": {
+        "exec": "python3 ~/.config/waybar/scripts/river_height.py",  // Replace with the actual path to your Python script
+        "interval": 1,  // Optional: Set update interval in seconds
+        "return-type": "json",
+        "format": "{text}"
+    }
+}
