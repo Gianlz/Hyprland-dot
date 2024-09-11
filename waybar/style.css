@@ -1,0 +1,112 @@
+* {
+    font-family: 'SpaceMono Nerd Font', feather;
+    font-weight: 200;
+    font-size: 13.5pt;
+    color: #c0caf5;
+}
+
+window#waybar {
+    background: rgba(26, 27, 38, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 5%;
+    padding: 0 5px; /* Apenas padding lateral */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button {
+    padding: 0 5px; /* Apenas padding lateral */
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#workspaces button.active {
+    border-bottom: 2px solid #7aa2f7;
+    border-radius: 5px 5px 0 0;
+    /* Removido margin-top */
+    transition: all 0.5s ease-in-out;
+}
+
+#workspaces button.focused {
+    color: #a6adc8;
+}
+
+#workspaces button.urgent {
+    color: #f7768e;
+}
+
+#workspaces button:hover {
+    background: #11111b;
+    color: #cdd6f4;
+}
+
+#workspaces,
+#clock,
+#window,
+#temperature,
+#cpu,
+#memory,
+#wireplumber,
+#tray,
+#network,
+#backlight,
+#pulseaudio,
+#bluetooth,
+#pulseaudio#microphone,
+#river_height,
+#battery {
+    background: rgba(26, 27, 38, 0.85);
+    padding: 0 15px; /* Apenas padding lateral */
+    border: 0;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 0; /* Removido margin top e bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#clock {
+    font-size: 17px;
+}
+
+#bluetooth {
+    font-size: 16px;
+}
+
+#workspaces {
+    padding-right: 0px;
+}
+
+window#waybar.empty #window {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+#tray {
+    border-radius: 12px;
+}
+
+#window {
+    border-radius: 12px;
+}
+
+#temperature {
+    border-radius: 12px 0 0 12px;
+}
+
+#network {
+    color: #8d8df7;
+}
+
+#backlight {
+    margin-right: 25px;
+}
+
+#custom-river_height {
+    font-size: 16px;
+    color: green;
+}
